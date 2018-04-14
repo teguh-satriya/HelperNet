@@ -4,7 +4,7 @@ using System.Web.Mvc;
 namespace Helper
 {
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method)]
-    class CustomAuthorization : AuthorizeAttribute
+    public class CustomAuthorize : AuthorizeAttribute
     {
         private const string IS_AUTHORIZED = "isAuthorized";
 
